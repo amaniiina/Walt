@@ -4,15 +4,12 @@ import com.walt.dao.CustomerRepository;
 import com.walt.dao.DeliveryRepository;
 import com.walt.dao.DriverRepository;
 import com.walt.model.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
-import java.util.stream.Collectors;
 
 @Service
 public class WaltServiceImpl implements WaltService {
